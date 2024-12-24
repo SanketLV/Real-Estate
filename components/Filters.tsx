@@ -10,7 +10,6 @@ const Filters = () => {
   );
 
   const handleCategoryChange = (category: string) => {
-    console.log("Category: ", category);
     if (selectedCategory === category) {
       setSelectedCategory("");
       router.setParams({ filter: "" });
